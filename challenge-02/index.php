@@ -1,10 +1,7 @@
 <?php
+require_once 'FindMinimumWindowSubstring.php';
 
-function noIterate($strArr)
-{
-    // code goes here
-    return $strArr;
-}
+$findMinimumWindowSubstring = new FindMinimumWindowSubstring();
 
 // keep this function call here
-echo noIterate(["ahffaksfajeeubsne", "jefaa"]);
+echo $findMinimumWindowSubstring->execute(["ahffaksfajeeubsne", "jefaa"]);
